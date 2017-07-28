@@ -17,11 +17,25 @@ namespace Demo.Service
         public string GetComputerName()
         {
             Console.WriteLine("Message Received :GetComputerName");
-            //return Environment.MachineName;
+            //1. this will fault the channel
+            // throw new InvalidDataException("Invalid data");
+
+            //2. throwing which not declared in the contract via FaultException
             //throw new FaultException("Invalid Arguments");
-            // throw new ArgumentException("Invalid Arguments");
-             throw new FaultException<ArgumentException>(new ArgumentException("Invalid arguments"));
-           // throw new FaultException<ArgumentException>(new ArgumentNullException("Arg null"));
+
+            //3. throwing which not declared in the contract via FaultException<T>
+            //throw new FaultException<InvalidDataException>(new InvalidDataException("Invalid arguments"));
+
+            //4. throwing which is declared in the contract via FaultException<T>
+            //throw new FaultException<ArgumentException>(new ArgumentException("Invalid arguments"));
+
+            //5. throwing exception via FaultException<ExceptionDetails>
+            //ArgumentException exception =new ArgumentException("Some error");
+            //ExceptionDetail detail = new ExceptionDetail(exception);
+            //throw new FaultException<ExceptionDetail>(detail, exception.Message);
+
+
+
         }
 
         public string GetEnvironmentVariableValue(string key)

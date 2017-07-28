@@ -6,9 +6,36 @@ using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Reflection;
 
 namespace Demo.Client
 {
+    static class Helper
+    {
+        public static Exception ExtractException(this FaultException<ExceptionDetail> fault)
+        {
+            return ExtractException(fault.Detail);
+        }
+        static Exception ExtractException(ExceptionDetail detail)
+        {
+            Exception innerException = null;
+            if (detail.InnerException != null)
+            {
+                innerException = ExtractException(detail.InnerException);
+            }
+            Type type = Type.GetType(detail.Type);
+            //Debug.Assert(type != null, "Make sure this assembly (ServiceModelEx by default) contains the definition of the custom exception");
+            //Debug.Assert(type.IsSubclassOf(typeof(Exception)));
+
+            Type[] parameters = { typeof(string), typeof(Exception) };
+            ConstructorInfo info = type.GetConstructor(parameters);
+            //Debug.Assert(info != null, "Exception type " + detail.Type + " does not have suitable constructor");
+
+            Exception exception = Activator.CreateInstance(type, detail.Message, innerException) as Exception;
+            //Debug.Assert(exception != null);
+            return exception;
+        }
+    }
     public class ServiceClient : ClientBase<IMessageService>, IMessageService
     {
         public string GetComputerName()
@@ -28,6 +55,7 @@ namespace Demo.Client
     }
     class Program
     {
+        
         static void Main(string[] args)
         {
 
@@ -36,6 +64,10 @@ namespace Demo.Client
             {
                 var computerName = sc.GetComputerName();
                 Console.WriteLine(computerName);
+            }
+            catch (FaultException<ArgumentException> edbe)
+            {
+                Console.WriteLine("FaultException<ArgumentException>");
             }
             catch (FaultException<DivideByZeroException> edbe)
             {

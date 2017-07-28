@@ -14,3 +14,11 @@ C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Client.pdb
 C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Contract.dll
 C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Contract.pdb
 C:\dev\WCDemo\Demo.Client\obj\Debug\Demo.Client.csprojResolveAssemblyReference.cache
+C:\dev\dotnet-dev\WCDemo\Demo.Client\bin\Debug\Demo.Client.exe.config
+C:\dev\dotnet-dev\WCDemo\Demo.Client\bin\Debug\Demo.Client.exe
+C:\dev\dotnet-dev\WCDemo\Demo.Client\bin\Debug\Demo.Client.pdb
+C:\dev\dotnet-dev\WCDemo\Demo.Client\bin\Debug\Demo.Contract.dll
+C:\dev\dotnet-dev\WCDemo\Demo.Client\bin\Debug\Demo.Contract.pdb
+C:\dev\dotnet-dev\WCDemo\Demo.Client\obj\Debug\Demo.Client.csprojResolveAssemblyReference.cache
+C:\dev\dotnet-dev\WCDemo\Demo.Client\obj\Debug\Demo.Client.exe
+C:\dev\dotnet-dev\WCDemo\Demo.Client\obj\Debug\Demo.Client.pdb

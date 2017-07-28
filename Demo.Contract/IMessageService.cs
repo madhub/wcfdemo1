@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace Demo.Contract
 {
     
+
     [ServiceContract]
     public interface IMessageService
     {
