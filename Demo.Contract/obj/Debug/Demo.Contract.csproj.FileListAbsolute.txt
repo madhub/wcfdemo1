@@ -1,0 +1,5 @@
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Contract\bin\Debug\Demo.Contract.dll
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Contract\bin\Debug\Demo.Contract.pdb
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Contract\obj\Debug\Demo.Contract.csprojResolveAssemblyReference.cache
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Contract\obj\Debug\Demo.Contract.dll
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Contract\obj\Debug\Demo.Contract.pdb

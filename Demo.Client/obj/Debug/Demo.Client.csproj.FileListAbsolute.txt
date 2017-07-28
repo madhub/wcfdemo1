@@ -1,0 +1,16 @@
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\bin\Debug\Demo.Client.exe.config
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\bin\Debug\Demo.Client.exe
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\bin\Debug\Demo.Client.pdb
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\bin\Debug\Demo.Contract.dll
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\bin\Debug\Demo.Contract.pdb
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\obj\Debug\Demo.Client.csprojResolveAssemblyReference.cache
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\obj\Debug\Demo.Client.exe
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Client\obj\Debug\Demo.Client.pdb
+C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Client.exe.config
+C:\dev\WCDemo\Demo.Client\obj\Debug\Demo.Client.exe
+C:\dev\WCDemo\Demo.Client\obj\Debug\Demo.Client.pdb
+C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Client.exe
+C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Client.pdb
+C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Contract.dll
+C:\dev\WCDemo\Demo.Client\bin\Debug\Demo.Contract.pdb
+C:\dev\WCDemo\Demo.Client\obj\Debug\Demo.Client.csprojResolveAssemblyReference.cache

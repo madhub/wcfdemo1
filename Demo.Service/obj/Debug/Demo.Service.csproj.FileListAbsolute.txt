@@ -1,0 +1,11 @@
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\bin\Debug\Demo.Service.exe.config
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\bin\Debug\Demo.Service.exe
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\bin\Debug\Demo.Service.pdb
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\bin\Debug\Demo.Contract.dll
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\bin\Debug\Demo.Contract.pdb
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\obj\Debug\Demo.Service.csprojResolveAssemblyReference.cache
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\obj\Debug\Demo.Service.exe
+c:\users\bs_ma\onedrive\documents\visual studio 2015\Projects\WCDemo\Demo.Service\obj\Debug\Demo.Service.pdb
+C:\dev\dotnet-dev\WCDemo\Demo.Service\bin\Debug\Demo.Service.exe
+C:\dev\dotnet-dev\WCDemo\Demo.Service\bin\Debug\Demo.Service.pdb
+C:\dev\dotnet-dev\WCDemo\Demo.Service\bin\Debug\Demo.Contract.dll
